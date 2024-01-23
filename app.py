@@ -9,7 +9,7 @@ import numpy
 #     data = pd.read_csv('vehicles_us.csv')
 #     return data
 
-@st.cache_data  # Use the cache decorator
+@st.cache # Use the cache decorator
 def load_data():
     # Load your data from a file
     data = pd.read_csv('vehicles_us.csv')
