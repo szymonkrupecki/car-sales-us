@@ -4,7 +4,8 @@ import plotly.express as px
 import numpy
 
 # Read the dataset
-@st.cache  # This decorator caches the data to speed up the app
+@st.cache_data def load_data(): data = pd.read_csv('vehicles_us.csv') return data
+#@st.cache  # This decorator caches the data to speed up the app
 def load_data():
     data = pd.read_csv('vehicles_us.csv')
     return data
