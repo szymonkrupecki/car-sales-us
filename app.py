@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import numpy
 
 # Read the dataset
 @st.cache  # This decorator caches the data to speed up the app
