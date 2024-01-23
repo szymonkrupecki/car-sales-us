@@ -4,11 +4,16 @@ import plotly.express as px
 import numpy
 
 # Read the dataset
-@st.cache
+# @st.cache
+# def load_data():
+#     data = pd.read_csv('vehicles_us.csv')
+#     return data
+
+@st.cache_data  # Use the cache decorator
 def load_data():
+    # Load your data from a file
     data = pd.read_csv('vehicles_us.csv')
     return data
-
 data = load_data()
 
 ## Preprocessing the data
