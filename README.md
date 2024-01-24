@@ -2,7 +2,7 @@
 
 ## Introduction/Overview
 
-The application utilizes a dataset on car sales advertisements, 
+The application utilizes a dataset on car sales, 
 allowing users to interactively explore 
 and analyze various aspects of vehicle data. 
 
